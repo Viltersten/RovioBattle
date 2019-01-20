@@ -1,4 +1,5 @@
 {
+  "seed": 13,
   "attacks": {
     "melee": {
       "index": 0,
