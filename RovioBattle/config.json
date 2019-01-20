@@ -1,25 +1,29 @@
 {
   "attacks": {
     "melee": {
-      "index":  0, 
+      "index": 0,
+      "name": "Melé",
       "cost": 0,
       "damage": 3,
       "frequency": 5
     },
     "fireball": {
       "index": 1,
+      "name": "Ball Of Fire",
       "cost": 1,
       "damage": 5,
       "frequency": 3
     },
     "icebolt": {
       "index": 2,
+      "name": "Ice Bolt",
       "cost": 2,
       "damage": 10,
       "frequency": 2
     },
     "poison": {
       "index": 3,
+      "name": "Poisonous Spit",
       "cost": 3,
       "damage": 7,
       "frequency": 1,
@@ -31,5 +35,6 @@
     "pants": 0.75,
     "ring": 2
   },
-  "initialHealth": "100"
+  "initialHealth": 100,
+  "initialEnergy": 0
 }
