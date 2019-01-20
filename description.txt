@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Rovio Backend Code Test
+-------------------------------------------------------------------------------
+
+The goal of this test is to create a turn based combat simulation for an RPG.
+The test should focus on clean and readable code architecture.
+
+Requirements
+- Written as a C# .Net Core console application.
+- Print the combat flow/events to the console to display what happens in the simulation.
+- Try to spend a maximum of 8 hours on the test.
+- Unit tests should cover several combat scenarios.
+
+Gameplay
+- 2 characters take turns attacking each other
+- Characters have a name
+- Characters have 100 health
+- Characters gains 2 energy per turn
+- Characters have 4 abilities each:
+	- Melee: It costs 0 energy and causes 3 damage
+	- Fireball: It costs 1 energy and causes 5 damage
+	- Ice bolt: It costs 2 energy and causes 10 damage
+	- Poison: It costs 3 energy, causes 7 damage and then 4 damage each turn for 3 turns
+- Each turn, a random ability is chosen and cast (if enough energy is accumulated)
+- If there is not enough energy for the chosen ability, the character performs a melee attack
+- After an attack has been performed, we print what happened in the console.
+- If any character reaches 0 health, the simulation ends.
+
+Bonus features
+- Characters have a random chance to be equipped with a "passive ability" on startup.
+- A passive ability can be:
+	- Lucky pants: Has a 75% chance to evade melee attacks
+	- Ring of flames: Boosts fire attacks by 100%
+
+-------------------------------------------------------------------------------
